@@ -15,7 +15,7 @@ C:/UnityProjects/dPro
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-56284
+58414
 Successfully changed project path to: C:/UnityProjects/dPro
 C:/UnityProjects/dPro
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,13 +49,13 @@ C:/UnityProjects/dPro
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [133596] Host "[IP] 192.168.78.98 [Port] 0 [Flags] 2 [Guid] 2395977641 [EditorId] 2395977641 [Version] 1048832 [Id] WindowsEditor(7,Lakshya) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [37068] Host "[IP] 192.168.78.98 [Port] 0 [Flags] 2 [Guid] 3522848785 [EditorId] 3522848785 [Version] 1048832 [Id] WindowsEditor(7,Lakshya) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [133596] Host "[IP] 192.168.78.98 [Port] 0 [Flags] 2 [Guid] 2395977641 [EditorId] 2395977641 [Version] 1048832 [Id] WindowsEditor(7,Lakshya) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [37068] Host "[IP] 192.168.78.98 [Port] 0 [Flags] 2 [Guid] 3522848785 [EditorId] 3522848785 [Version] 1048832 [Id] WindowsEditor(7,Lakshya) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 6.79 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 963.21 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.86 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/UnityProjects/dPro/Assets
@@ -70,15 +70,15 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008943 seconds.
-- Loaded All Assemblies, in  0.264 seconds
+Registered in 0.008777 seconds.
+- Loaded All Assemblies, in  0.333 seconds
 Native extension for WindowsStandalone target not found
 Failed to load: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
 Native extension for VisionOS target not found
@@ -86,38 +86,38 @@ Native extension for VisionOS target not found
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 217 ms
+Android Extension - Scanning For ADB Devices 240 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.493 seconds
-Domain Reload Profiling: 756ms
-	BeginReloadAssembly (81ms)
+- Finished resetting the current domain, in  0.566 seconds
+Domain Reload Profiling: 898ms
+	BeginReloadAssembly (125ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (102ms)
-		LoadAssemblies (80ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (120ms)
+		LoadAssemblies (125ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (100ms)
-			TypeCache.Refresh (99ms)
-				TypeCache.ScanAssembly (89ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (106ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (493ms)
+	FinalizeReload (566ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (443ms)
+		SetupLoadedEditorAssemblies (515ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (314ms)
+			InitializePlatformSupportModulesInManaged (358ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (88ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -125,8 +125,8 @@ Domain Reload Profiling: 756ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.544 seconds
-Refreshing native plugins compatible for Editor in 2.67 ms, found 4 plugins.
+- Loaded All Assemblies, in 11.990 seconds
+Refreshing native plugins compatible for Editor in 28.26 ms, found 15 plugins.
 Native extension for WindowsStandalone target not found
 Failed to load: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
 Native extension for VisionOS target not found
@@ -139,6 +139,21 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000dd] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
 Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -146,497 +161,66 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.627 seconds
-Domain Reload Profiling: 1169ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  3.244 seconds
+Domain Reload Profiling: 15227ms
+	BeginReloadAssembly (182ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (363ms)
-		LoadAssemblies (268ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (11688ms)
+		LoadAssemblies (11430ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (158ms)
-			TypeCache.Refresh (136ms)
-				TypeCache.ScanAssembly (123ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (628ms)
+		AnalyzeDomain (391ms)
+			TypeCache.Refresh (320ms)
+				TypeCache.ScanAssembly (295ms)
+			ScanForSourceGeneratedMonoScriptInfo (54ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (3245ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (504ms)
+		SetupLoadedEditorAssemblies (2969ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (67ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (343ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
+			BeforeProcessingInitializeOnLoad (227ms)
+			ProcessInitializeOnLoadAttributes (660ms)
+			ProcessInitializeOnLoadMethodAttributes (2000ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.19 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4299 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (1.2 MB). Loaded Objects now: 4761.
-Memory consumption went from 158.2 MB to 157.0 MB.
-Total: 2.952400 ms (FindLiveObjects: 0.203900 ms CreateObjectMapping: 0.097500 ms MarkObjects: 2.234800 ms  DeleteObjects: 0.415100 ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 17.40 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 6351 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 168 unused Assets / (1.5 MB). Loaded Objects now: 6759.
+Memory consumption went from 218.5 MB to 217.0 MB.
+Total: 4.227100 ms (FindLiveObjects: 0.345500 ms CreateObjectMapping: 0.240100 ms MarkObjects: 3.019700 ms  DeleteObjects: 0.620700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MenuUtils.cs: ef61e56f05605c149332b0b451f694ed -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 966642.765088 seconds.
-  path: Assets/UI/vision pro/Diagonisis Patients
-  artifactKey: Guid(1ecea641e19894a45a093970e1197c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Diagonisis Patients using Guid(1ecea641e19894a45a093970e1197c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452dd29b6bf264e76e1eb949a454065b') in 0.002227 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.059520 seconds.
-  path: Assets/UI/vision pro/Diagonisis Patients/Controls.png
-  artifactKey: Guid(1042560ce0ac0bc48b22cf519f98f3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Diagonisis Patients/Controls.png using Guid(1042560ce0ac0bc48b22cf519f98f3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d23a0c6eb7740a0190bbed1897ff00c') in 0.072901 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.929279 seconds.
-  path: Assets/UI/vision pro/Disease image
-  artifactKey: Guid(92b7b31d5a668ea48baa0da464fc1968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Disease image using Guid(92b7b31d5a668ea48baa0da464fc1968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e9c3fc8142e2e395006aaaa35ccb56') in 0.000573 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.072892 seconds.
-  path: Assets/UI/vision pro/Disease image/Disease Image.png
-  artifactKey: Guid(da1c6880214b52349868e57ed132ef35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Disease image/Disease Image.png using Guid(da1c6880214b52349868e57ed132ef35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcbdfa72ecdc6886d48da21b332b7d2') in 0.023479 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.908047 seconds.
-  path: Assets/UI/vision pro/Disease State Menu
-  artifactKey: Guid(fcf42bd16daa7c34f80b51b0b7eba789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Disease State Menu using Guid(fcf42bd16daa7c34f80b51b0b7eba789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e768d55c7735220b4a66614675271d7') in 0.000544 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.083054 seconds.
-  path: Assets/UI/vision pro/Disease State Menu/Background Room.png
-  artifactKey: Guid(9ffefbfe8e927c9449ec7f00d1343134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Disease State Menu/Background Room.png using Guid(9ffefbfe8e927c9449ec7f00d1343134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51bdfb88b103cc55f9317dcf81372ed') in 0.029336 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.990321 seconds.
-  path: Assets/UI/vision pro/Practice menu
-  artifactKey: Guid(a96beb3fbdc3a8f40b8605e13639c84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Practice menu using Guid(a96beb3fbdc3a8f40b8605e13639c84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ee20eef31740802ebc915021bbc18e') in 0.000560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.069119 seconds.
-  path: Assets/UI/vision pro/Practice menu/App Icons.png
-  artifactKey: Guid(fe5eda23600bdc44ba6047e1d4914bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Practice menu/App Icons.png using Guid(fe5eda23600bdc44ba6047e1d4914bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbacafffed6fa0885d238a109dc79b9') in 0.111973 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.862 seconds
-Refreshing native plugins compatible for Editor in 23.53 ms, found 13 plugins.
-Native extension for WindowsStandalone target not found
-Failed to load: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
-Native extension for VisionOS target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000dd] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.671 seconds
-Domain Reload Profiling: 2527ms
-	BeginReloadAssembly (264ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (490ms)
-		LoadAssemblies (504ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (118ms)
-			TypeCache.Refresh (85ms)
-				TypeCache.ScanAssembly (71ms)
-			ScanForSourceGeneratedMonoScriptInfo (22ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1672ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (813ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (64ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (168ms)
-			ProcessInitializeOnLoadAttributes (510ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 25.08 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.72 ms.
-Unloading 4461 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (1.1 MB). Loaded Objects now: 4917.
-Memory consumption went from 160.6 MB to 159.6 MB.
-Total: 5.907700 ms (FindLiveObjects: 0.383600 ms CreateObjectMapping: 0.318600 ms MarkObjects: 4.480800 ms  DeleteObjects: 0.722500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Oculus.cs: 2edcd533dd4b371bb248051a8fa77761 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 470.958352 seconds.
-  path: Assets/Scenes/Main.unity
-  artifactKey: Guid(fe75f39bd988ea84f9f35b1177b30735) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Main.unity using Guid(fe75f39bd988ea84f9f35b1177b30735) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '65ac9734b54a468ed40285709d642d66') in 0.111210 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/UI/vision pro/Practice Screen/Figma_3_screen_veeva 1.png
-  artifactKey: Guid(e573a5271cb797142900d54a39fa0482) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UI/vision pro/Practice Screen/Figma_3_screen_veeva 1.png using Guid(e573a5271cb797142900d54a39fa0482) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c35a4ee97cde34c4287dbdc2f5e826f2') in 0.186850 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/XR/UserSimulationSettings/SimulationEnvironmentAssetsManager.asset
-  artifactKey: Guid(229dcf2eac26f044db4d365f515e3edf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/XR/UserSimulationSettings/SimulationEnvironmentAssetsManager.asset using Guid(229dcf2eac26f044db4d365f515e3edf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '91481d919f6143d2440c815999a9ea35') in 0.022629 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/UI/vision pro/Diagonisis Patients/Group 4.png
-  artifactKey: Guid(ae6194d4188382549ac721f1890f96cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UI/vision pro/Diagonisis Patients/Group 4.png using Guid(ae6194d4188382549ac721f1890f96cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a78c21ff0af38a0c4712896e94b9205') in 0.040042 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/UI/vision pro/Practice menu/Menu of Options.png
-  artifactKey: Guid(1b80d59e9db12aa4c8f8d66a07ed17c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UI/vision pro/Practice menu/Menu of Options.png using Guid(1b80d59e9db12aa4c8f8d66a07ed17c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '95102d216556072ebca5de00dce8db9a') in 0.042140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/XR/Settings/OpenXR Package Settings.asset
-  artifactKey: Guid(5fbce07b4ad14bb43ac898f22cb7c003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/XR/Settings/OpenXR Package Settings.asset using Guid(5fbce07b4ad14bb43ac898f22cb7c003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '56a27538d932d8e378ba34472b4a7bc3') in 0.143120 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 35
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/UI/vision pro/Practice Screen/from_justin 1.png
-  artifactKey: Guid(06685d58ae9951a429813cc58ce2dc47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UI/vision pro/Practice Screen/from_justin 1.png using Guid(06685d58ae9951a429813cc58ce2dc47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fce9802202644afdee37dc773b36628f') in 0.056997 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/XR/Settings/OculusSettings.asset
-  artifactKey: Guid(13b4eaf53c166fb4c83850c16baa6a6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/XR/Settings/OculusSettings.asset using Guid(13b4eaf53c166fb4c83850c16baa6a6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '859e91cda81773cf4e1d7e5d20386d6e') in 0.028518 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/UI/vision pro/Diagonisis HCP/Group 4.png
-  artifactKey: Guid(3ff1dd807a256f249b9247929d4ee088) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UI/vision pro/Diagonisis HCP/Group 4.png using Guid(3ff1dd807a256f249b9247929d4ee088) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f4036ccfb7d88e0e04b3510ecb35d0a') in 0.044008 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/UI/vision pro/Diagonisis Patients/Rectangle 8.png
-  artifactKey: Guid(7b252a28e4157fb43b78784b2dd603ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UI/vision pro/Diagonisis Patients/Rectangle 8.png using Guid(7b252a28e4157fb43b78784b2dd603ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c87ad46a5f23784c2e7f575d80ce48a') in 0.033889 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/UI/vision pro/Diagonisis HCP/Controls.png
-  artifactKey: Guid(aaf6be8cbb6da2e46bd6873296d94215) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UI/vision pro/Diagonisis HCP/Controls.png using Guid(aaf6be8cbb6da2e46bd6873296d94215) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e3c11281a74df7905f149cfa02881316') in 0.032313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/UI/vision pro/Diagonisis Patients/Figma_blood_MRI 1.png
-  artifactKey: Guid(cd09e5572489b8a4186f07e0606ab698) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UI/vision pro/Diagonisis Patients/Figma_blood_MRI 1.png using Guid(cd09e5572489b8a4186f07e0606ab698) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5d814f8174638b0bc614663d113b0396') in 0.033054 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/UI/vision pro/The news/The News.png
-  artifactKey: Guid(b1c3a963410f97849a63a20de88fb5c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UI/vision pro/The news/The News.png using Guid(b1c3a963410f97849a63a20de88fb5c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '69f0ac730a5636a3c08a009108abd705') in 0.031867 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/UI/vision pro/Diagonisis Patients/Controls.png
-  artifactKey: Guid(1042560ce0ac0bc48b22cf519f98f3d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UI/vision pro/Diagonisis Patients/Controls.png using Guid(1042560ce0ac0bc48b22cf519f98f3d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2172ff3204918d0150d9629ac1405bb0') in 0.031121 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/UI/vision pro/Begin the journey/HCP Journey.png
-  artifactKey: Guid(052af6db7b06ef745b9f1d8c31417df8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UI/vision pro/Begin the journey/HCP Journey.png using Guid(052af6db7b06ef745b9f1d8c31417df8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '56fc47da9b0ab83a502dc066d7f3dec9') in 0.032731 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/XR/Settings/XRSimulationSettings.asset
-  artifactKey: Guid(4ff9b39d4e4647341b98be2804afa9a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/XR/Settings/XRSimulationSettings.asset using Guid(4ff9b39d4e4647341b98be2804afa9a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4b5c51ef015418088e5cd2d2d17010fe') in 0.013278 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/UI/vision pro/Diagonisis Patients/Rectangle 15.png
-  artifactKey: Guid(7e3dcc35f7100c24680bcea946d34110) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UI/vision pro/Diagonisis Patients/Rectangle 15.png using Guid(7e3dcc35f7100c24680bcea946d34110) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cea751b015d2f15107dc62e434669385') in 0.035344 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/UI/vision pro/Disease image/Disease Image.png
-  artifactKey: Guid(da1c6880214b52349868e57ed132ef35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UI/vision pro/Disease image/Disease Image.png using Guid(da1c6880214b52349868e57ed132ef35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '664236c27e3412c79ac728e5a2b06a05') in 0.034121 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UI/vision pro/Begin the journey/Patient Journey.png
-  artifactKey: Guid(0552aaaa07b0c1a4f9f45fe1c7b5f1ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UI/vision pro/Begin the journey/Patient Journey.png using Guid(0552aaaa07b0c1a4f9f45fe1c7b5f1ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2bfdf4d3b244229de1acbcaca0146721') in 0.033610 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/UI/vision pro/Diagonisis Patients/Rectangle 6.png
-  artifactKey: Guid(3074528183c9252478797510ef47f943) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UI/vision pro/Diagonisis Patients/Rectangle 6.png using Guid(3074528183c9252478797510ef47f943) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ffb10f81d2b364fcde4da317971bd54c') in 0.036834 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/UI/vision pro/Disease State Menu/Window and Window Controlsa.png
-  artifactKey: Guid(3a2804f116bcf45459a9e2d0dabfd043) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UI/vision pro/Disease State Menu/Window and Window Controlsa.png using Guid(3a2804f116bcf45459a9e2d0dabfd043) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a0f27e8e2940f53838d502822017359a') in 0.041276 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/UI/vision pro/Begin the journey/The Library.png
-  artifactKey: Guid(ecda4bb93b7c4804eaf40efcab0eff4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UI/vision pro/Begin the journey/The Library.png using Guid(ecda4bb93b7c4804eaf40efcab0eff4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f8a74349dd4211d3b9db046ea7cebd2') in 0.037138 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/UI/vision pro/Begin the journey/Rectangle 6.png
-  artifactKey: Guid(ddad31d4e0839634db30aa6331531797) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UI/vision pro/Begin the journey/Rectangle 6.png using Guid(ddad31d4e0839634db30aa6331531797) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ccab68746b5768b068e4da3fad71e82') in 0.033167 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/UI/vision pro/Begin the journey/A_Z_logo_white 1.png
-  artifactKey: Guid(ddf3738636ef40f4b996bbc404331553) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UI/vision pro/Begin the journey/A_Z_logo_white 1.png using Guid(ddf3738636ef40f4b996bbc404331553) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f0d2ef8a993d59787b2017051d6cd0d') in 0.039832 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.546 seconds
-Refreshing native plugins compatible for Editor in 17.34 ms, found 14 plugins.
-Native extension for WindowsStandalone target not found
-Failed to load: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
-Native extension for VisionOS target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000dd] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.111 seconds
-Domain Reload Profiling: 1652ms
-	BeginReloadAssembly (158ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (313ms)
-		LoadAssemblies (353ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (44ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (6ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1111ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (640ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (40ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (122ms)
-			ProcessInitializeOnLoadAttributes (344ms)
-			ProcessInitializeOnLoadMethodAttributes (119ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 15.44 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 4763 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 119 unused Assets / (1.4 MB). Loaded Objects now: 5198.
-Memory consumption went from 177.1 MB to 175.7 MB.
-Total: 3.460000 ms (FindLiveObjects: 0.330300 ms CreateObjectMapping: 0.132300 ms MarkObjects: 2.455500 ms  DeleteObjects: 0.540800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

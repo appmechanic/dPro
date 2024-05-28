@@ -15,7 +15,7 @@ C:/UnityProjects/dPro
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56284
+58414
 Successfully changed project path to: C:/UnityProjects/dPro
 C:/UnityProjects/dPro
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,13 +49,13 @@ C:/UnityProjects/dPro
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [38984] Host "[IP] 192.168.78.98 [Port] 0 [Flags] 2 [Guid] 3034891202 [EditorId] 3034891202 [Version] 1048832 [Id] WindowsEditor(7,Lakshya) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [143072] Host "[IP] 192.168.78.98 [Port] 0 [Flags] 2 [Guid] 3400375452 [EditorId] 3400375452 [Version] 1048832 [Id] WindowsEditor(7,Lakshya) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [38984] Host "[IP] 192.168.78.98 [Port] 0 [Flags] 2 [Guid] 3034891202 [EditorId] 3034891202 [Version] 1048832 [Id] WindowsEditor(7,Lakshya) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [143072] Host "[IP] 192.168.78.98 [Port] 0 [Flags] 2 [Guid] 3400375452 [EditorId] 3400375452 [Version] 1048832 [Id] WindowsEditor(7,Lakshya) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 8.00 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 22.87 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.41 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/UnityProjects/dPro/Assets
@@ -70,15 +70,15 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010676 seconds.
-- Loaded All Assemblies, in  0.316 seconds
+Registered in 0.008575 seconds.
+- Loaded All Assemblies, in  0.293 seconds
 Native extension for WindowsStandalone target not found
 Failed to load: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
 Native extension for VisionOS target not found
@@ -86,38 +86,38 @@ Native extension for VisionOS target not found
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 293 ms
+Android Extension - Scanning For ADB Devices 227 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.597 seconds
-Domain Reload Profiling: 910ms
-	BeginReloadAssembly (95ms)
+- Finished resetting the current domain, in  0.514 seconds
+Domain Reload Profiling: 806ms
+	BeginReloadAssembly (87ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
+	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (127ms)
-		LoadAssemblies (94ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (116ms)
+		LoadAssemblies (85ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (124ms)
-			TypeCache.Refresh (123ms)
-				TypeCache.ScanAssembly (110ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (102ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (598ms)
+	FinalizeReload (514ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (544ms)
+		SetupLoadedEditorAssemblies (468ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (403ms)
+			InitializePlatformSupportModulesInManaged (330ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (100ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -125,8 +125,8 @@ Domain Reload Profiling: 910ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.689 seconds
-Refreshing native plugins compatible for Editor in 2.82 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.826 seconds
+Refreshing native plugins compatible for Editor in 12.86 ms, found 14 plugins.
 Native extension for WindowsStandalone target not found
 Failed to load: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
 Native extension for VisionOS target not found
@@ -139,6 +139,21 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000dd] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
 Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -146,50 +161,51 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.643 seconds
-Domain Reload Profiling: 1330ms
-	BeginReloadAssembly (115ms)
+- Finished resetting the current domain, in  0.836 seconds
+Domain Reload Profiling: 1658ms
+	BeginReloadAssembly (181ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (506ms)
-		LoadAssemblies (346ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (552ms)
+		LoadAssemblies (448ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (227ms)
-			TypeCache.Refresh (197ms)
-				TypeCache.ScanAssembly (178ms)
-			ScanForSourceGeneratedMonoScriptInfo (22ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (644ms)
+		AnalyzeDomain (209ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (157ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (837ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (509ms)
+		SetupLoadedEditorAssemblies (674ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (31ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (92ms)
-			ProcessInitializeOnLoadAttributes (354ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (382ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 3.19 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4299 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (1.1 MB). Loaded Objects now: 4760.
-Memory consumption went from 158.1 MB to 157.0 MB.
-Total: 3.629300 ms (FindLiveObjects: 0.255400 ms CreateObjectMapping: 0.178400 ms MarkObjects: 2.739900 ms  DeleteObjects: 0.454300 ms)
+Refreshing native plugins compatible for Editor in 14.05 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 5198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 147 unused Assets / (1.2 MB). Loaded Objects now: 5610.
+Memory consumption went from 186.1 MB to 184.9 MB.
+Total: 3.895100 ms (FindLiveObjects: 0.350000 ms CreateObjectMapping: 0.139600 ms MarkObjects: 2.908300 ms  DeleteObjects: 0.496000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Oculus.cs: 2edcd533dd4b371bb248051a8fa77761 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -199,163 +215,1046 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MenuUtils.cs: ef61e56f05605c149332b0b451f694ed -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GazeInputManager.cs:  -> 155625cd07bc4e1e834f6e8f7d58bb43
+  custom:scripting/monoscript/fileName/XRPokeFollowAffordance.cs:  -> 621a47fc1058589b07b340fb03547357
+  custom:scripting/monoscript/fileName/StarterAssetsSampleProjectValidation.cs:  -> 41923d4e3ad340b10762e754770f8031
+  custom:scripting/monoscript/fileName/DestroySelf.cs:  -> 4403ad9e1588a465a19ece24fa8e9b79
+  custom:scripting/precompiled-assembly-types:Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor:  -> ac93a809c4c32485b88edb1b417cdac1
+  custom:scripting/monoscript/fileName/IncrementUIText.cs:  -> f7d8385b142d66834e0ec965e04f971f
+  custom:scripting/monoscript/fileName/ActionBasedControllerManager.cs:  -> 04af9b76e0982b7f3b3da9f4639042cf
+  custom:scripting/monoscript/fileName/ObjectSpawner.cs:  -> 9dd8da7c17a93d30bb31c5c6f3c19a83
+  custom:scripting/precompiled-assembly-types:Unity.XR.Interaction.Toolkit.Samples.StarterAssets:  -> 8badff4084cdbc5a0878ca1d43243271
+  custom:scripting/monoscript/fileName/DynamicMoveProvider.cs:  -> 64ab64daf2a926326dc8263ed59a5ef2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.447 seconds
+Refreshing native plugins compatible for Editor in 13.16 ms, found 14 plugins.
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000dd] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.459 seconds
+Domain Reload Profiling: 1903ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (234ms)
+		LoadAssemblies (290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1460ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1012ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (370ms)
+			ProcessInitializeOnLoadMethodAttributes (478ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 15.17 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 5148 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 119 unused Assets / (1.2 MB). Loaded Objects now: 5614.
+Memory consumption went from 182.3 MB to 181.1 MB.
+Total: 3.437400 ms (FindLiveObjects: 0.265800 ms CreateObjectMapping: 0.173400 ms MarkObjects: 2.456100 ms  DeleteObjects: 0.541000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Oculus.cs: 2edcd533dd4b371bb248051a8fa77761 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MenuUtils.cs: ef61e56f05605c149332b0b451f694ed -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 966628.664137 seconds.
-  path: Assets/UI
-  artifactKey: Guid(b5561df1faf99c9429c2ee504c1a5a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI using Guid(b5561df1faf99c9429c2ee504c1a5a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670003eda2d18d9b78f86570676dd4f6') in 0.002016 seconds
+  Time since last request: 967493.529350 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo
+  artifactKey: Guid(db6a71eee46dcd64193d008124eb63d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo using Guid(db6a71eee46dcd64193d008124eb63d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534183cf2c005ac73626ca3ad987c04b') in 0.002280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.463 seconds
+Refreshing native plugins compatible for Editor in 13.48 ms, found 14 plugins.
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000dd] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.374 seconds
+Domain Reload Profiling: 1865ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (262ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (47ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1405ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (956ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (439ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 11.95 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 5164 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 121 unused Assets / (1.2 MB). Loaded Objects now: 5633.
+Memory consumption went from 184.7 MB to 183.5 MB.
+Total: 3.719500 ms (FindLiveObjects: 0.275700 ms CreateObjectMapping: 0.161200 ms MarkObjects: 2.754400 ms  DeleteObjects: 0.527200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Oculus.cs: 2edcd533dd4b371bb248051a8fa77761 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MenuUtils.cs: ef61e56f05605c149332b0b451f694ed -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.494 seconds
+Refreshing native plugins compatible for Editor in 13.97 ms, found 15 plugins.
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000dd] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.414 seconds
+Domain Reload Profiling: 1905ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (284ms)
+		LoadAssemblies (306ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (50ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (9ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1415ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (937ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (436ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 13.42 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 5213 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 127 unused Assets / (1.3 MB). Loaded Objects now: 5679.
+Memory consumption went from 190.2 MB to 189.0 MB.
+Total: 3.411600 ms (FindLiveObjects: 0.275600 ms CreateObjectMapping: 0.159300 ms MarkObjects: 2.446400 ms  DeleteObjects: 0.529400 ms)
+
+Prepare: number of updated asset objects reloaded= 35
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Oculus.cs: 2edcd533dd4b371bb248051a8fa77761 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MenuUtils.cs: ef61e56f05605c149332b0b451f694ed -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.548 seconds
+Refreshing native plugins compatible for Editor in 15.36 ms, found 15 plugins.
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000dd] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.592 seconds
+Domain Reload Profiling: 2136ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (304ms)
+		LoadAssemblies (340ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (45ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1592ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1025ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (378ms)
+			ProcessInitializeOnLoadMethodAttributes (462ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 16.60 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 5215 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 127 unused Assets / (1.2 MB). Loaded Objects now: 5687.
+Memory consumption went from 214.8 MB to 213.5 MB.
+Total: 3.842900 ms (FindLiveObjects: 0.423000 ms CreateObjectMapping: 0.196500 ms MarkObjects: 2.594100 ms  DeleteObjects: 0.627900 ms)
+
+Prepare: number of updated asset objects reloaded= 37
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Oculus.cs: 2edcd533dd4b371bb248051a8fa77761 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MenuUtils.cs: ef61e56f05605c149332b0b451f694ed -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.553 seconds
+Refreshing native plugins compatible for Editor in 18.53 ms, found 15 plugins.
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000dd] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.552 seconds
+Domain Reload Profiling: 2101ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (357ms)
+		LoadAssemblies (293ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (85ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1553ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1081ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (378ms)
+			ProcessInitializeOnLoadMethodAttributes (512ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 14.37 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 6300 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 139 unused Assets / (2.1 MB). Loaded Objects now: 6764.
+Memory consumption went from 244.1 MB to 242.1 MB.
+Total: 5.194800 ms (FindLiveObjects: 0.445200 ms CreateObjectMapping: 0.173700 ms MarkObjects: 2.931800 ms  DeleteObjects: 1.642400 ms)
+
+Prepare: number of updated asset objects reloaded= 2
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MenuUtils.cs: ef61e56f05605c149332b0b451f694ed -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Oculus.cs: 2edcd533dd4b371bb248051a8fa77761 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.508 seconds
+Refreshing native plugins compatible for Editor in 16.36 ms, found 15 plugins.
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000dd] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.338 seconds
+Domain Reload Profiling: 1842ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (287ms)
+		LoadAssemblies (336ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1338ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (746ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (374ms)
+			ProcessInitializeOnLoadMethodAttributes (162ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 18.40 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 6300 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 145 unused Assets / (2.0 MB). Loaded Objects now: 6768.
+Memory consumption went from 224.2 MB to 222.2 MB.
+Total: 4.448400 ms (FindLiveObjects: 0.329300 ms CreateObjectMapping: 0.304200 ms MarkObjects: 2.656900 ms  DeleteObjects: 1.156600 ms)
+
+Prepare: number of updated asset objects reloaded= 37
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MenuUtils.cs: ef61e56f05605c149332b0b451f694ed -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Oculus.cs: 2edcd533dd4b371bb248051a8fa77761 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 579.203247 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.002658 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 7.018672 seconds.
-  path: Assets/UI/vision pro
-  artifactKey: Guid(3ab6ea0eeda484449b631d9c76328f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro using Guid(3ab6ea0eeda484449b631d9c76328f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8f14cd864bc069246f84aaebd8ff82') in 0.000474 seconds
+  Time since last request: 12.310136 seconds.
+  path: Assets/SpatialHandInteractionHandler.cs
+  artifactKey: Guid(7297d3ef39906154e92b7f84e5b76f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpatialHandInteractionHandler.cs using Guid(7297d3ef39906154e92b7f84e5b76f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7317052bd5504b8600e2485688753d') in 0.000635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.512 seconds
+Refreshing native plugins compatible for Editor in 17.86 ms, found 15 plugins.
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000dd] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.512 seconds
+Domain Reload Profiling: 2020ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (298ms)
+		LoadAssemblies (321ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (50ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1513ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1000ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (367ms)
+			ProcessInitializeOnLoadMethodAttributes (458ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 23.57 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 6300 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 145 unused Assets / (2.1 MB). Loaded Objects now: 6775.
+Memory consumption went from 0.90 GB to 0.90 GB.
+Total: 4.598700 ms (FindLiveObjects: 0.418600 ms CreateObjectMapping: 0.382500 ms MarkObjects: 2.800400 ms  DeleteObjects: 0.995600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MenuUtils.cs: ef61e56f05605c149332b0b451f694ed -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Oculus.cs: 2edcd533dd4b371bb248051a8fa77761 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8.610203 seconds.
+  path: Assets/SpatialHandInteractionHandler.cs
+  artifactKey: Guid(7297d3ef39906154e92b7f84e5b76f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpatialHandInteractionHandler.cs using Guid(7297d3ef39906154e92b7f84e5b76f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac4929c76daef0f7fb39b24ab77b9df') in 0.001582 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.779025 seconds.
-  path: Assets/UI/vision pro/Begin the journey
-  artifactKey: Guid(8e47a1acffe904e439ee44484149faf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Begin the journey using Guid(8e47a1acffe904e439ee44484149faf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f971aab8b407708a7f5bbf1501acb9ea') in 0.000558 seconds
+  Time since last request: 56.510655 seconds.
+  path: Assets/SpatialHandInteractionHandler.cs
+  artifactKey: Guid(7297d3ef39906154e92b7f84e5b76f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpatialHandInteractionHandler.cs using Guid(7297d3ef39906154e92b7f84e5b76f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fc467c501c2d64cdd08c1d74eb4840') in 0.000608 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.041088 seconds.
-  path: Assets/UI/vision pro/Begin the journey/A_Z_logo_white 1.png
-  artifactKey: Guid(ddf3738636ef40f4b996bbc404331553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Begin the journey/A_Z_logo_white 1.png using Guid(ddf3738636ef40f4b996bbc404331553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6504ad2e44132bb542cb421203bbf64') in 0.092787 seconds
+  Time since last request: 176.301999 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo/HandsDemoSceneAssets/Materials/AccentButton.mat
+  artifactKey: Guid(53c16fb5d5c516b40a1f6a8fc34132f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo/HandsDemoSceneAssets/Materials/AccentButton.mat using Guid(53c16fb5d5c516b40a1f6a8fc34132f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b8ececcb07992129818088fd53cb4a') in 0.294040 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UI/vision pro/Begin the journey/Peer Practice.png
-  artifactKey: Guid(f9e8af692d01e0342b2aa7f072eb1c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Begin the journey/Peer Practice.png using Guid(f9e8af692d01e0342b2aa7f072eb1c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78d52a508beb2eb77aad1971eddbf8b') in 0.019144 seconds
+  Time since last request: 0.000044 seconds.
+  path: Assets/Samples/XR Hands/1.4.1/HandVisualizer/Materials/Blue.mat
+  artifactKey: Guid(7b26add94f09dc44fb811013f007a3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands/1.4.1/HandVisualizer/Materials/Blue.mat using Guid(7b26add94f09dc44fb811013f007a3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a0bae1de66d2ddb87f078084e962e5') in 0.097181 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/UI/vision pro/Begin the journey/dual_paths_icon_3.png
-  artifactKey: Guid(c22e5aedeee2eef4584d1d6095392933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Begin the journey/dual_paths_icon_3.png using Guid(c22e5aedeee2eef4584d1d6095392933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076d26d4ba29872d23f6b7847ea8a9eb') in 0.017969 seconds
+  Time since last request: 0.000109 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo/HandsDemoSceneAssets/Materials/Chrome.mat
+  artifactKey: Guid(2edb876ca20f6ea40b4ebb61f96f1df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo/HandsDemoSceneAssets/Materials/Chrome.mat using Guid(2edb876ca20f6ea40b4ebb61f96f1df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13afe809a020e6fbb23f5aadd1f9a701') in 0.066376 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/UI/vision pro/Begin the journey/Rectangle 5.png
-  artifactKey: Guid(b778a2ca2bc01dc428608ea20ef64de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Begin the journey/Rectangle 5.png using Guid(b778a2ca2bc01dc428608ea20ef64de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d08fb66ec0b3d9d968660fc8de667ae') in 0.018159 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo/Materials/DepthOnly.mat
+  artifactKey: Guid(455ef821a5429de4baeed61fa958acbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo/Materials/DepthOnly.mat using Guid(455ef821a5429de4baeed61fa958acbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37488d6cb629bc18fcdb1155372f8909') in 0.030343 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/UI/vision pro/Begin the journey/Controls.png
-  artifactKey: Guid(119cf14847df09947af522d1eeb31923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Begin the journey/Controls.png using Guid(119cf14847df09947af522d1eeb31923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9eb63f1dd822d05251e0aa6bcb2417') in 0.014423 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo/HandsDemoSceneAssets/Models/Chess/Chess_Board.fbx
+  artifactKey: Guid(714a27c3372b8074d8370e2bc0cecf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo/HandsDemoSceneAssets/Models/Chess/Chess_Board.fbx using Guid(714a27c3372b8074d8370e2bc0cecf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351132b115125442beabccc331820711') in 0.559817 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 326
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/UI/vision pro/Begin the journey/Patient Journey.png
-  artifactKey: Guid(0552aaaa07b0c1a4f9f45fe1c7b5f1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Begin the journey/Patient Journey.png using Guid(0552aaaa07b0c1a4f9f45fe1c7b5f1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae50c76213b4525ee01d43aa04fb7a8') in 0.015277 seconds
+  Time since last request: 1.912014 seconds.
+  path: Assets/Samples/XR Hands/1.4.1/HandVisualizer/Materials/HandsDefaultMaterial.mat
+  artifactKey: Guid(613690cd962241049a0ec289a6ff835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands/1.4.1/HandVisualizer/Materials/HandsDefaultMaterial.mat using Guid(613690cd962241049a0ec289a6ff835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a46b1e10f2bedf70153a643f99972e8') in 0.166285 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 3.130109 seconds.
-  path: Assets/UI/vision pro/Diagonisis HCP
-  artifactKey: Guid(c498bb12b9dcd8742b59163e841239ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Diagonisis HCP using Guid(c498bb12b9dcd8742b59163e841239ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db08da8b45e936ca1685d3a0559a5265') in 0.000591 seconds
+  Time since last request: 0.255450 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Models/Reticle_Torus.fbx
+  artifactKey: Guid(be2911572dc3afa448d24b4e97edc5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Models/Reticle_Torus.fbx using Guid(be2911572dc3afa448d24b4e97edc5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6733253104de12a307fb615b97f95fb6') in 0.021622 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.045127 seconds.
-  path: Assets/UI/vision pro/Diagonisis HCP/Controls.png
-  artifactKey: Guid(aaf6be8cbb6da2e46bd6873296d94215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Diagonisis HCP/Controls.png using Guid(aaf6be8cbb6da2e46bd6873296d94215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5fd9745c5514e8fe210a11e261d6ac5') in 0.018805 seconds
+  Time since last request: 0.043668 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo/HandsDemoSceneAssets/Models/Chess/Chess_Pawn.fbx
+  artifactKey: Guid(45b2a246bd435f74989d22078ec2752e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo/HandsDemoSceneAssets/Models/Chess/Chess_Pawn.fbx using Guid(45b2a246bd435f74989d22078ec2752e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd793b73f696d6f286ef35ec22153ec5f') in 0.030739 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/UI/vision pro/Diagonisis HCP/Group 4.png
-  artifactKey: Guid(3ff1dd807a256f249b9247929d4ee088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Diagonisis HCP/Group 4.png using Guid(3ff1dd807a256f249b9247929d4ee088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2a40267ef581e1c1d0128fe10c825b') in 0.016373 seconds
+  Time since last request: 0.282423 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Models/XRControllerRight.fbx
+  artifactKey: Guid(11cd62256b1d470f922b2c8e6446cc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Models/XRControllerRight.fbx using Guid(11cd62256b1d470f922b2c8e6446cc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14560553a37b906f8f4acb80daacd5af') in 0.072176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo/HandsDemoSceneAssets/Materials/PrimitivesCoral.mat
+  artifactKey: Guid(31a376bc4ad62f24dae7ced0e38f6309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo/HandsDemoSceneAssets/Materials/PrimitivesCoral.mat using Guid(31a376bc4ad62f24dae7ced0e38f6309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b4db4b597eab5f87001a03a010d1cf') in 0.070663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.227497 seconds.
+  path: Assets/Samples/XR Hands/1.4.1/HandVisualizer/Materials/Red.mat
+  artifactKey: Guid(55fa12dc7870f1e46b6a7f8617949a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands/1.4.1/HandVisualizer/Materials/Red.mat using Guid(55fa12dc7870f1e46b6a7f8617949a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c77ff10574f3b2956df9a4573fa35a8') in 0.013376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo/Shaders/RimLight.shadergraph
+  artifactKey: Guid(4ff4bf42ffc12e34a9c53b2f216f5442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo/Shaders/RimLight.shadergraph using Guid(4ff4bf42ffc12e34a9c53b2f216f5442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c291b01f2c39bfac247baf5c8f8bc035') in 0.687563 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/UI/vision pro/Diagonisis HCP/Rectangle 6.png
-  artifactKey: Guid(6f0d381514840e34699fd06ee4636650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Diagonisis HCP/Rectangle 6.png using Guid(6f0d381514840e34699fd06ee4636650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604fe39b4d0f8b44bb76f1a6ff6398e0') in 0.015930 seconds
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Tunneling Vignette/TunnelingVignetteSG.shadergraph
+  artifactKey: Guid(c109fab5d2bf5f64598ed69d2c16ceb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Tunneling Vignette/TunnelingVignetteSG.shadergraph using Guid(c109fab5d2bf5f64598ed69d2c16ceb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4b655d5b08d8c101e29b55c6746ca5') in 0.030358 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/UI/vision pro/Diagonisis HCP/Rectangle 8.png
-  artifactKey: Guid(3779cc8c9ea993a41a0fb393494d6082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Diagonisis HCP/Rectangle 8.png using Guid(3779cc8c9ea993a41a0fb393494d6082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49414f4cdb82823132cc6455d2cf9a84') in 0.012576 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo/Shaders/Unity_Hand.shadergraph
+  artifactKey: Guid(bd11349dc99f3fd4083ef2f86cee9c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo/Shaders/Unity_Hand.shadergraph using Guid(bd11349dc99f3fd4083ef2f86cee9c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d43449fe3f5b97ab22d66b72433e9b') in 0.407983 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 2.894613 seconds.
-  path: Assets/UI/vision pro/Diagonisis Patients/Figma_blood_MRI 1.png
-  artifactKey: Guid(cd09e5572489b8a4186f07e0606ab698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Diagonisis Patients/Figma_blood_MRI 1.png using Guid(cd09e5572489b8a4186f07e0606ab698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af5a9c0c7f40d980e5c566b358e5765') in 0.022544 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo/Materials/Unity_Hand_Light.mat
+  artifactKey: Guid(1e4454c94a0cbda42814c4fb8df151d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Hands Interaction Demo/Materials/Unity_Hand_Light.mat using Guid(1e4454c94a0cbda42814c4fb8df151d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1733e31328f0db36f5d53da23b7a46fd') in 0.371524 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UI/vision pro/Diagonisis Patients/Group 4.png
-  artifactKey: Guid(ae6194d4188382549ac721f1890f96cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Diagonisis Patients/Group 4.png using Guid(ae6194d4188382549ac721f1890f96cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000e0e0a83b1c6c7ffa43f8612eb80b6') in 0.018035 seconds
+  Time since last request: 241.532974 seconds.
+  path: Assets/spatialPointer.prefab
+  artifactKey: Guid(3617d49fcb26604418a61e212d5883b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spatialPointer.prefab using Guid(3617d49fcb26604418a61e212d5883b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ae6ab17823f46623c7cc9732ca6dcf') in 0.018284 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.519 seconds
+Refreshing native plugins compatible for Editor in 15.33 ms, found 15 plugins.
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000dd] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.586 seconds
+Domain Reload Profiling: 3102ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (313ms)
+		LoadAssemblies (326ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (50ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2587ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1579ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (1089ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 16.23 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Unloading 6302 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 143 unused Assets / (2.0 MB). Loaded Objects now: 6828.
+Memory consumption went from 0.91 GB to 0.90 GB.
+Total: 4.365300 ms (FindLiveObjects: 0.335800 ms CreateObjectMapping: 0.223400 ms MarkObjects: 3.039200 ms  DeleteObjects: 0.765600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MenuUtils.cs: ef61e56f05605c149332b0b451f694ed -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Oculus.cs: 2edcd533dd4b371bb248051a8fa77761 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.460 seconds
+Refreshing native plugins compatible for Editor in 12.65 ms, found 15 plugins.
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000dd] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.603 seconds
+Domain Reload Profiling: 2058ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (257ms)
+		LoadAssemblies (305ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1604ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1054ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (355ms)
+			ProcessInitializeOnLoadMethodAttributes (503ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 17.61 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 6297 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 142 unused Assets / (2.0 MB). Loaded Objects now: 6832.
+Memory consumption went from 253.8 MB to 251.8 MB.
+Total: 3.733000 ms (FindLiveObjects: 0.338200 ms CreateObjectMapping: 0.210300 ms MarkObjects: 2.422700 ms  DeleteObjects: 0.760700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MenuUtils.cs: ef61e56f05605c149332b0b451f694ed -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Oculus.cs: 2edcd533dd4b371bb248051a8fa77761 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.052434 seconds.
-  path: Assets/UI/vision pro/Disease State Menu/Menu of Options.png
-  artifactKey: Guid(984f46b4be19e5f41ab70035555c9176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Disease State Menu/Menu of Options.png using Guid(984f46b4be19e5f41ab70035555c9176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98924ae8a0ac31ba68b7efb6f004627f') in 0.025526 seconds
+  Time since last request: 415.280658 seconds.
+  path: Assets/XR
+  artifactKey: Guid(055488c3e5fc3b843a825b7f9db543f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(055488c3e5fc3b843a825b7f9db543f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d029dedc178d9c257f0f8fece89bf13') in 0.002374 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UI/vision pro/Disease State Menu/Window and Window Controlsa.png
-  artifactKey: Guid(3a2804f116bcf45459a9e2d0dabfd043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Disease State Menu/Window and Window Controlsa.png using Guid(3a2804f116bcf45459a9e2d0dabfd043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5488eb9fc0b7ba9e9a6fa57042dc0d00') in 0.018739 seconds
+  Time since last request: 0.110681 seconds.
+  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
+  artifactKey: Guid(67991521e3b672b4d89c07a39193ae6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(67991521e3b672b4d89c07a39193ae6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7cff4b31c3c9e525795fdf087e92485') in 0.009962 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 3.044824 seconds.
-  path: Assets/UI/vision pro/Practice menu/Menu of Options.png
-  artifactKey: Guid(1b80d59e9db12aa4c8f8d66a07ed17c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/vision pro/Practice menu/Menu of Options.png using Guid(1b80d59e9db12aa4c8f8d66a07ed17c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef8af74ef94742c3f5d1737912bd9d9') in 0.104580 seconds
+  Time since last request: 1.750772 seconds.
+  path: Assets/XRI
+  artifactKey: Guid(3364a47a5f021df45983a907103e0a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI using Guid(3364a47a5f021df45983a907103e0a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f4beb57af8894594cea4663bc9626a') in 0.000506 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 0

@@ -60,7 +60,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SpatialHandInteractionHandler.cs" />
+    <Compile Include="Assets\Input\VisionOSInputActions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -981,13 +981,13 @@
       <Project>{46AFB51D-EB61-8203-5585-8E8BF74BEB94}</Project>
       <Name>Unity.XR.CoreUtils</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj">
+      <Project>{FA379AD5-1995-79A9-C06A-EC2373EBD208}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.Hands.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
       <Project>{9951AF74-4EF1-8B61-2225-F5EFD1668E9A}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.ARFoundation.Editor.csproj">
-      <Project>{419425EB-BAFA-ECF0-DCDB-971DE2289507}</Project>
-      <Name>Unity.XR.ARFoundation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Simulation.csproj">
       <Project>{99255965-7215-D40F-5E2D-D42F91EABB9A}</Project>
@@ -1009,13 +1009,13 @@
       <Project>{DA35889C-815C-B77C-1C5E-78C2A2E65556}</Project>
       <Name>Unity.XR.OpenXR.Features.MetaQuestSupport</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj">
-      <Project>{FA379AD5-1995-79A9-C06A-EC2373EBD208}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.Hands.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
       <Project>{BF4E286A-B815-4C88-340A-ADAA4FBF53E8}</Project>
       <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
+      <Project>{295E9CDF-7229-5A26-7028-AAB467C676B3}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
       <Project>{07F6C163-4E17-5DAD-FDB2-9F70D727A0C1}</Project>
@@ -1029,13 +1029,13 @@
       <Project>{96A48E00-4CAE-7D17-AE0C-DB259B8CA8DA}</Project>
       <Name>Unity.XR.ARFoundation.VisualScripting</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
-      <Project>{295E9CDF-7229-5A26-7028-AAB467C676B3}</Project>
-      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.ARCore.Editor.csproj">
       <Project>{6A432C1E-E01F-B781-3574-0A376DF20D5D}</Project>
       <Name>Unity.XR.ARCore.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.ARFoundation.Editor.csproj">
+      <Project>{419425EB-BAFA-ECF0-DCDB-971DE2289507}</Project>
+      <Name>Unity.XR.ARFoundation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
       <Project>{33D01601-1010-BD56-3C7C-ED853E810ADF}</Project>
@@ -1125,6 +1125,10 @@
       <Project>{2D04F6CC-B713-1ADB-BE33-3B4980091F79}</Project>
       <Name>Unity.VisualScripting.Core.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Hands.Editor.csproj">
+      <Project>{7129F5E4-1F6E-A9CD-5342-337D2F60E656}</Project>
+      <Name>Unity.XR.Hands.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{CD3E81DD-6AC2-E540-B973-790C14548A3B}</Project>
       <Name>UnityEngine.UI</Name>
@@ -1132,10 +1136,6 @@
     <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
       <Project>{050EFA6E-9071-CF81-168F-6B1796484329}</Project>
       <Name>UnityEditor.XR.LegacyInputHelpers</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Hands.Editor.csproj">
-      <Project>{7129F5E4-1F6E-A9CD-5342-337D2F60E656}</Project>
-      <Name>Unity.XR.Hands.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
       <Project>{8927F269-698E-F115-6D16-5B8D13450E6B}</Project>
